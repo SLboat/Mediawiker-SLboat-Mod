@@ -3,7 +3,8 @@
     {
         "English wikipedia": { "host": "en.wikipedia.org", "path": "/w/", "pagepath": "/wiki/", "username": "", "password": "", "domain": "" },
         "Russian wikipedia": { "host": "ru.wikipedia.org", "path": "/w/", "pagepath": "/wiki/", "username": "", "password": "", "domain": "" },
-        "Mediawiki": { "host": "www.mediawiki.org", "path": "/w/", "pagepath": "/wiki/", "username": "", "password": "", "domain": "" }
+        "Mediawiki": { "host": "www.mediawiki.org", "path": "/w/", "pagepath": "/wiki/", "username": "", "password": "", "domain": "" },
+        "SLboat": { "host": "see.sl088.com", "path": "/w/", "pagepath": "/wiki/", "username": "", "password": "", "domain": "" },
     },
     "mediawiki_site_active": "English wikipedia",
     "mediawiker_summary_postfix": " (by SublimeText.Mediawiker)",

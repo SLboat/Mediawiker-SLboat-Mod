@@ -387,7 +387,7 @@ class MediawikerShowPageCommand(sublime_plugin.TextCommand):
             text = '<New wiki page: Remove this with text of the new page>'
         if is_writable:
             self.view.erase(edit, sublime.Region(0, self.view.size()))
-            self.view.set_syntax_file('Packages/Mediawiker/Mediawiki.tmLanguage')
+            self.view.set_syntax_file('Packages/Mediawiker-SLboat-Mod/Mediawiki.tmLanguage')
             self.view.set_name(title)
             self.view.run_command('mediawiker_insert_text', {'position': 0, 'text': text})
             sublime.status_message('Page %s was opened successfully.' % (title))
